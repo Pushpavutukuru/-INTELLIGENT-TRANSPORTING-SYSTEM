@@ -1,0 +1,11 @@
+"C:\Users\vutuk\Desktop\major_project\traffic_new.csv"
+sns.countplot('Traffic', order = data['Traffic'].value_counts().index, data=data,ax=ax[1])
+
+
+sns.countplot('Traffic', order = data['Traffic'].value_counts().index, data=data,ax=ax[1])
+ax[1].set_title('Traffic condition')
+plt.show()
+
+sns.countplot('Traffic', order = data['Traffic'].value_counts().index,data=data,ax=ax[1])
+ax[1].set_title('Traffic condition')
+plt.show()
